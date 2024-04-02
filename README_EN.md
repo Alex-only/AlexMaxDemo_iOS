@@ -12,7 +12,7 @@ Other:
 
 1. Added support for MAX's native self-rendered ad integration. Currently compatible with Applovin, Admob, and Pangle. Please refer to the [MaxAdapter support versions](https://dash.applovin.com/documentation/mediation/ios/ad-formats/native-manual) for more information.
 
-2. [TopOn Native Self-rendered Ad Integration Documentation](https://help.toponad.com/docs/Selfrendering-ads)
+   
 
 
 
@@ -20,7 +20,7 @@ Other:
 
 ## 1. Access TopOn SDK
 
-Please refer to  to access[TopOn SDK Integration Documentation](https://help.toponad.com/docs/LqneJG) TopOn SDK, it is recommended to access **TopOn v6.1.65 and above**[TopOn SDK Integration Documentation Expired](https://newdocs.toponad.com/en/docs/lMKM4P)
+ TopOn SDK, it is recommended to access **TopOn v6.1.65 and above**
 
 ## 2 Introducing Max SDK&Alex Adapter
 
@@ -92,7 +92,7 @@ The JSON configuration example when adding an ad source in the background is as 
 
 ### 1.Determine advertising platform
 
-1. To determine the compatible AdMob version for your TopOn version (v6.2.75), you can refer to the [TopOn documentation](https://docs.toponad.com/#/zh-cn/android/download/package) . It will provide you with the information about the AdMob version compatible with your TopOn version. For example, if the documentation states that TopOn v6.2.75 is compatible with AdMob v10.8.0, then you should use AdMob v10.8.0 for integration.
+1. To determine the compatible AdMob version for your TopOn version (v6.2.75), you can refer to the TopOn . It will provide you with the information about the AdMob version compatible with your TopOn version. For example, if the documentation states that TopOn v6.2.75 is compatible with AdMob v10.8.0, then you should use AdMob v10.8.0 for integration.
 2. After determining the compatible AdMob version (v10.11.0.0) from the previous step, you can visit the [Max Mediation documentation](https://dash.applovin.com/documentation/mediation/android/mediation-adapters#adapter-network-information) to find the corresponding adapter version. In this case, since you are using Max SDK version 11.11.3 and AdMob version 10.11.0.0, you would look for the Max adapter version that matches AdMob version 10.11.0.0.
 
 ![max_admob](Assets/max_admob.png)
