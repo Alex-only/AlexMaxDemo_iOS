@@ -55,7 +55,6 @@ We just need to import the MaxSDKAdapter.framework into the path，`Assets/AnyTh
 To add the MaxSDKAdapter.framework to your Xcode project using a Podfile,  pod install
 
 ```
-pod 'AnyThinkiOS', '6.2.34'
 pod 'AppLovinSDK'
 ```
 
