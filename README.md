@@ -56,7 +56,6 @@ pod 'AppLovinSDK'
 在Xcode中的Podfile文件添加，添加完毕后使用 pod install进行依赖。
 
 ```
-pod 'AnyThinkiOS', '6.2.34'
 pod 'AppLovinSDK'
 ```
 
