@@ -21,7 +21,7 @@ Tip: If necessary, please refer to [the English documentation](https://github.co
 
 ## 一. 接入TopOn SDK
 
-请参考接入[TopOn SDK集成文档](https://help.toponad.com/cn/docs/TopOn-ju-he-jie-shao)TopOn SDK，建议接入**TopOn v6.1.65及以上版本**[TopOn SDK集成文档（旧版）](https://docs.toponad.com/#/zh-cn/ios/GetStarted/TopOn_Get_Started)
+请参考接入[TopOn SDK集成文档](https://help.toponad.com/cn/docs/TopOn-ju-he-jie-shao)TopOn SDK，建议接入**TopOn v6.1.65及以上版本**[TopOn SDK集成文档（旧版）](https://newdocs.toponad.com/docs/ImqhNs)
 
 ## 二. 引入Max SDK&Alex Adapter
 

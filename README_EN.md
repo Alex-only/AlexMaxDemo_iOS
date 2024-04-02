@@ -20,7 +20,7 @@ Other:
 
 ## 1. Access TopOn SDK
 
-Please refer to  to access[TopOn SDK Integration Documentation](https://help.toponad.com/docs/LqneJG) TopOn SDK, it is recommended to access **TopOn v6.1.65 and above**[TopOn SDK Integration Documentation Expired](https://docs.toponad.com/#/en-us/ios/GetStarted/TopOn_Get_Started)
+Please refer to  to access[TopOn SDK Integration Documentation](https://help.toponad.com/docs/LqneJG) TopOn SDK, it is recommended to access **TopOn v6.1.65 and above**[TopOn SDK Integration Documentation Expired](https://newdocs.toponad.com/en/docs/lMKM4P)
 
 ## 2 Introducing Max SDK&Alex Adapter
 
