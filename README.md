@@ -11,7 +11,7 @@
 其他点：
 1.支持Max的自渲染广告接入，目前能适配Applovin，Admob，Pangle 的接入，[MaxAdapter支持版本](https://dash.applovin.com/documentation/mediation/ios/ad-formats/native-manual)
 
-2.[TopOn原生自渲染广告集成文档](https://newdocs.toponad.com/docs/GCybzJ)
+2.[TopOn原生自渲染广告集成文档](https://help.toponad.com/cn/docs/zi-xuan-ran-xin-xi-liu-guang-gao)
 
 
 
@@ -21,14 +21,7 @@ Tip: If necessary, please refer to [the English documentation](https://github.co
 
 ## 一. 接入TopOn SDK
 
-请参考[TopOn SDK集成文档](https://docs.toponad.com/#/zh-cn/ios/GetStarted/TopOn_Get_Started)接入TopOn SDK，建议接入**TopOn v6.1.65及以上版本**
-
-### 1.1 推荐使用Cocoapods导入
-
-```
-// 版本号可选择稳定的版本，该例子以6.2.34
-pod 'AnyThinkiOS','6.2.34'
-```
+请参考接入[TopOn SDK集成文档](https://help.toponad.com/cn/docs/TopOn-ju-he-jie-shao)TopOn SDK，建议接入**TopOn v6.1.65及以上版本**[TopOn SDK集成文档（旧版）](https://docs.toponad.com/#/zh-cn/ios/GetStarted/TopOn_Get_Started)
 
 ## 二. 引入Max SDK&Alex Adapter
 
@@ -101,7 +94,7 @@ pod 'AppLovinSDK'
 
 ### 1.确定广告平台Adapter版本
 
-1、先到 [TopOn后台](https://docs.toponad.com/#/zh-cn/android/download/package)，查看接入的TopOn版本兼容的Admob版本是多少？（TopOn v6.2.75版本兼容的Admob版本为v10.8.0）
+1、先到 [TopOn后台](https://portal.toponad.com/m/sdk/download)，查看接入的TopOn版本兼容的Admob版本是多少？（TopOn v6.2.75版本兼容的Admob版本为v10.8.0）
 
 2、然后到 [Max后台](https://dash.applovin.com/documentation/mediation/android/mediation-adapters#adapter-network-information)，根据接入的Max SDK版本（v11.11.3）和Admob版本（v10.11.0.0），查找对应的Adapter版本（v10.11.0.0）
 

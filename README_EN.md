@@ -12,7 +12,7 @@ Other:
 
 1. Added support for MAX's native self-rendered ad integration. Currently compatible with Applovin, Admob, and Pangle. Please refer to the [MaxAdapter support versions](https://dash.applovin.com/documentation/mediation/ios/ad-formats/native-manual) for more information.
 
-2. [TopOn Native Self-rendered Ad Integration Documentation](https://newdocs.toponad.com/docs/GCybzJ)
+2. [TopOn Native Self-rendered Ad Integration Documentation](https://help.toponad.com/docs/Selfrendering-ads)
 
 
 
@@ -20,16 +20,7 @@ Other:
 
 ## 1. Access TopOn SDK
 
-Please refer to [TopOn SDK Integration Documentation](https://docs.toponad.com/#/en-us/ios/GetStarted/TopOn_Get_Started) to access TopOn SDK, it is recommended to access **TopOn v6.1.65 and above**
-
-### 1.1 Cocoapods
-
-```
-// This article uses version 6.2.34 as an example.
-    pod 'AnyThinkiOS','6.2.34'
-```
-
-
+Please refer to  to access[TopOn SDK Integration Documentation](https://help.toponad.com/docs/LqneJG) TopOn SDK, it is recommended to access **TopOn v6.1.65 and above**[TopOn SDK Integration Documentation Expired](https://docs.toponad.com/#/en-us/ios/GetStarted/TopOn_Get_Started)
 
 ## 2 Introducing Max SDK&Alex Adapter
 
