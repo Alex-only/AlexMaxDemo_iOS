@@ -1,6 +1,0 @@
-framework module Pods_MaxSDKAdapter {
-  umbrella header "Pods-MaxSDKAdapter-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module Pods_MaxCustomSDK {
-  umbrella header "Pods-MaxCustomSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

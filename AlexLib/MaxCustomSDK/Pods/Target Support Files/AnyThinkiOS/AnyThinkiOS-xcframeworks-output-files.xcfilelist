@@ -1,6 +1,0 @@
-${PODS_XCFRAMEWORKS_BUILD_DIR}/AnyThinkiOS/AnyThinkSDK/AnyThinkBanner.framework
-${PODS_XCFRAMEWORKS_BUILD_DIR}/AnyThinkiOS/AnyThinkSDK/AnyThinkInterstitial.framework
-${PODS_XCFRAMEWORKS_BUILD_DIR}/AnyThinkiOS/AnyThinkSDK/AnyThinkNative.framework
-${PODS_XCFRAMEWORKS_BUILD_DIR}/AnyThinkiOS/AnyThinkSDK/AnyThinkRewardedVideo.framework
-${PODS_XCFRAMEWORKS_BUILD_DIR}/AnyThinkiOS/AnyThinkSDK/AnyThinkSDK.framework
-${PODS_XCFRAMEWORKS_BUILD_DIR}/AnyThinkiOS/AnyThinkSDK/AnyThinkSplash.framework

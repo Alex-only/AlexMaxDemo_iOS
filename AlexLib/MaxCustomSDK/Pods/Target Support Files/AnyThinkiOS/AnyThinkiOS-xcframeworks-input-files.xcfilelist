@@ -1,7 +1,0 @@
-${PODS_ROOT}/Target Support Files/AnyThinkiOS/AnyThinkiOS-xcframeworks.sh
-${PODS_ROOT}/AnyThinkiOS/AnyThinkiOS/AnyThinkBanner.xcframework
-${PODS_ROOT}/AnyThinkiOS/AnyThinkiOS/AnyThinkInterstitial.xcframework
-${PODS_ROOT}/AnyThinkiOS/AnyThinkiOS/AnyThinkNative.xcframework
-${PODS_ROOT}/AnyThinkiOS/AnyThinkiOS/AnyThinkRewardedVideo.xcframework
-${PODS_ROOT}/AnyThinkiOS/AnyThinkiOS/AnyThinkSDK.xcframework
-${PODS_ROOT}/AnyThinkiOS/AnyThinkiOS/AnyThinkSplash.xcframework
