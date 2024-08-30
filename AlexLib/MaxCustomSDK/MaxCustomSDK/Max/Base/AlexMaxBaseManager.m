@@ -69,10 +69,10 @@
     // Create the initialization configuration
     ALSdkInitializationConfiguration *initConfig = [ALSdkInitializationConfiguration configurationWithSdkKey:serverInfo[@"sdk_key"] builderBlock:^(ALSdkInitializationConfigurationBuilder *builder) {
         builder.mediationProvider = ALMediationProviderMAX;
-        builder.settings.userIdentifier = unitGroupModel.content[@"userID"];
     }];
     
-    [AlexMaxBaseManager setSdkSettings:initConfig.settings placementModel:placementModel];
+    [ALSdk shared].settings.userIdentifier = unitGroupModel.content[@"userID"];
+    [AlexMaxBaseManager setSdkSettings:[ALSdk shared].settings placementModel:placementModel];
     
     if ([self whetherCallApplovinInitAPI]) {
         [self callApplovinInitApi:serverInfo localInfo:localInfo unitGroupModel:unitGroupModel];
