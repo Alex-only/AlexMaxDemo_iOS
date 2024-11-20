@@ -25,6 +25,14 @@
 
 #pragma mark - 初始化
 + (void)initWithCustomInfo:(NSDictionary *)serverInfo localInfo:(NSDictionary *)localInfo maxInitFinishBlock:(nonnull ATMaxInitFinishBlock)maxInitFinishBlock {
+    
+    if ([self isLimitCOPPA]) {
+        if (maxInitFinishBlock) {
+            maxInitFinishBlock();
+        }
+        return;
+    }
+    
     dispatch_async(dispatch_get_main_queue(), ^{
         [self setCommonSetting:serverInfo];
         
@@ -86,6 +94,13 @@
     [[ALSdk shared] initializeWithConfiguration:initConfig completionHandler:^(ALSdkConfiguration *sdkConfig) {
         [self completeInitBlock];
     }];
+}
+
++ (BOOL)isLimitCOPPA {
+    if ([ATAppSettingManager sharedManager].complyWithCOPPA && [ALSdk versionCode] > 13000000) {
+        return YES;
+    }
+    return NO;
 }
 
 + (void)callApplovinInitApi:(NSDictionary * _Nonnull)serverInfo localInfo:(NSDictionary *)localInfo unitGroupModel:(ATUnitGroupModel *)unitGroupModel {

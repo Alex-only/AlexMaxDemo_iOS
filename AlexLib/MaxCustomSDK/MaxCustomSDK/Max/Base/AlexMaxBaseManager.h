@@ -17,7 +17,7 @@ typedef void(^ATMaxInitFinishBlock)(void);
 + (void)initWithCustomInfo:(NSDictionary *)serverInfo localInfo:(NSDictionary *)localInfo maxInitFinishBlock:(ATMaxInitFinishBlock)maxInitFinishBlock;
 
 + (NSString *)getMaxFormat:(MAAd *)maxAd;
-
++ (BOOL)isLimitCOPPA;
 @end
 
 NS_ASSUME_NONNULL_END

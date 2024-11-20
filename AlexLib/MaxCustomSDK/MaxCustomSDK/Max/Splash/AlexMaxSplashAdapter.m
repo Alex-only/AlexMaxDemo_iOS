@@ -20,6 +20,15 @@
 }
 
 - (void)loadADWithInfo:(NSDictionary*)serverInfo localInfo:(NSDictionary*)localInfo completion:(void (^)(NSArray<NSDictionary *> *, NSError *))completion {
+    
+    if ([AlexMaxBaseManager isLimitCOPPA]) {
+        self.customEvent = [[AlexMaxSplashCustomEvent alloc]initWithInfo:serverInfo localInfo:localInfo];
+        self.customEvent.requestCompletionBlock = completion;
+        NSError *error = [NSError errorWithDomain:ATADLoadingErrorDomain code:ATAdErrorCodeADOfferLoadingFailed userInfo:@{NSLocalizedDescriptionKey:@"AppLovin SDK 13.0.0 or higher does not support child users.", NSLocalizedFailureReasonErrorKey:@"1011"}];
+        [self.customEvent trackSplashAdLoadFailed:error];
+        return;
+    }
+    
     [AlexMaxBaseManager initWithCustomInfo:serverInfo localInfo:localInfo maxInitFinishBlock:^{
         dispatch_async(dispatch_get_main_queue(), ^{
             NSString *bidId = serverInfo[kATAdapterCustomInfoBuyeruIdKey];
@@ -67,6 +76,15 @@
 
 #pragma mark - C2S
 + (void)bidRequestWithPlacementModel:(ATPlacementModel*)placementModel unitGroupModel:(ATUnitGroupModel*)unitGroupModel info:(NSDictionary*)info completion:(void(^)(ATBidInfo *bidInfo, NSError *error))completion {
+    
+    
+    if ([AlexMaxBaseManager isLimitCOPPA]) {
+        if (completion) {
+            completion(nil, [NSError errorWithDomain:ATADLoadingErrorDomain code:ATAdErrorCodeADOfferLoadingFailed userInfo:@{NSLocalizedDescriptionKey:@"AppLovin SDK 13.0.0 or higher does not support child users.", NSLocalizedFailureReasonErrorKey:@"1011"}]);
+        }
+        return;
+    }
+    
     AlexMaxSplashCustomEvent *customEvent = [[AlexMaxSplashCustomEvent alloc]initWithInfo:info localInfo:info];
     customEvent.isC2SBiding = YES;
     customEvent.networkAdvertisingID = unitGroupModel.content[@"unit_id"];

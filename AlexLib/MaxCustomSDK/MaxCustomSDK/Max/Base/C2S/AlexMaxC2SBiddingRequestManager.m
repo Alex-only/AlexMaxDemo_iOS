@@ -69,8 +69,8 @@
     
     interstitialAd.delegate = (AlexMaxInterstitialCustomEvent *)request.customEvent;    
     // 动态出价设置最大价格
-    if ([request.extraInfo.allKeys containsObject: kATAdapterCustomInfoMaxFilledPriceKey]) {
-        NSString *maxPrice = request.extraInfo[kATAdapterCustomInfoMaxFilledPriceKey];
+    if ([request.extraInfo.allKeys containsObject: kATDynamicHBFloorPriceKey]) {
+        NSString *maxPrice = request.extraInfo[kATDynamicHBFloorPriceKey];
         if (maxPrice == nil) {
             maxPrice = @"0";
         }
@@ -85,8 +85,8 @@
     MARewardedAd *rewardedAd = [MARewardedAd sharedWithAdUnitIdentifier:request.unitGroup.content[@"unit_id"] sdk:[ALSdk shared]];
     rewardedAd.delegate = (AlexMaxRewardedVideoCustomEvent *)request.customEvent;
     // 动态出价设置最大价格
-    if ([request.extraInfo.allKeys containsObject :kATAdapterCustomInfoMaxFilledPriceKey]) {
-        NSString *maxPrice = request.extraInfo[kATAdapterCustomInfoMaxFilledPriceKey];
+    if ([request.extraInfo.allKeys containsObject :kATDynamicHBFloorPriceKey]) {
+        NSString *maxPrice = request.extraInfo[kATDynamicHBFloorPriceKey];
         if (maxPrice == nil) {
             maxPrice = @"0";
         }
@@ -103,8 +103,8 @@
     maxNativeAdLoader.revenueDelegate = (AlexMaxNativeCustomEvent *)request.customEvent;
 
     // 动态出价设置最大价格
-    if ([request.extraInfo.allKeys containsObject :kATAdapterCustomInfoMaxFilledPriceKey]) {
-        NSString *maxPrice = request.extraInfo[kATAdapterCustomInfoMaxFilledPriceKey];
+    if ([request.extraInfo.allKeys containsObject :kATDynamicHBFloorPriceKey]) {
+        NSString *maxPrice = request.extraInfo[kATDynamicHBFloorPriceKey];
         if (maxPrice == nil) {
             maxPrice = @"0";
         }
@@ -120,8 +120,8 @@
     MAAdView *adView = [[MAAdView alloc] initWithAdUnitIdentifier:request.unitGroup.content[@"unit_id"] adFormat:format sdk:[ALSdk shared]];
     adView.delegate = (AlexMaxBannerCustomEvent *)request.customEvent;
     // 动态出价设置最大价格
-    if ([request.extraInfo.allKeys containsObject :kATAdapterCustomInfoMaxFilledPriceKey]) {
-        NSString *maxPrice = request.extraInfo[kATAdapterCustomInfoMaxFilledPriceKey];
+    if ([request.extraInfo.allKeys containsObject :kATDynamicHBFloorPriceKey]) {
+        NSString *maxPrice = request.extraInfo[kATDynamicHBFloorPriceKey];
         if (maxPrice == nil) {
             maxPrice = @"0";
         }
@@ -147,8 +147,8 @@
     MAAppOpenAd *splashAd = [[MAAppOpenAd alloc] initWithAdUnitIdentifier:request.unitGroup.content[@"unit_id"] sdk:[ALSdk shared]];
     splashAd.delegate = (AlexMaxSplashCustomEvent *)request.customEvent;
     // 动态出价设置最大价格
-    if ([request.extraInfo.allKeys containsObject: kATAdapterCustomInfoMaxFilledPriceKey]) {
-        NSString *maxPrice = request.extraInfo[kATAdapterCustomInfoMaxFilledPriceKey];
+    if ([request.extraInfo.allKeys containsObject: kATDynamicHBFloorPriceKey]) {
+        NSString *maxPrice = request.extraInfo[kATDynamicHBFloorPriceKey];
         if (maxPrice == nil) {
             maxPrice = @"0";
         }

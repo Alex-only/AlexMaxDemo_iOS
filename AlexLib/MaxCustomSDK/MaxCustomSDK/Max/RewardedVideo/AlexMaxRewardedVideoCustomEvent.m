@@ -40,9 +40,12 @@
 
 - (void)didDisplayAd:(MAAd *)ad {
     [self trackRewardedVideoAdShow];
+    [self trackRewardedVideoAdVideoStart];
 }
 
 - (void)didHideAd:(MAAd *)ad {
+    self.closeType = ATAdCloseCountdown;
+    [self trackRewardedVideoAdVideoEnd];
     [self trackRewardedVideoAdCloseRewarded:self.rewardGranted extra:@{kATADDelegateExtraDismissTypeKey:self.closeType != 0 ? @(self.closeType) : @(ATAdCloseUnknow)}];
 }
 
@@ -55,15 +58,6 @@
 }
 
 #pragma mark - MARewardedAdDelegate Protocol
-- (void)didStartRewardedVideoForAd:(MAAd *)ad {
-    [self trackRewardedVideoAdVideoStart];
-}
-
-- (void)didCompleteRewardedVideoForAd:(MAAd *)ad {
-    [self trackRewardedVideoAdVideoEnd];
-    self.closeType = ATAdCloseCountdown;
-}
-
 - (void)didRewardUserForAd:(MAAd *)ad withReward:(MAReward *)reward {
     [self trackRewardedVideoAdRewarded];
 }
