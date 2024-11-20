@@ -27,5 +27,5 @@ target 'MaxSDKAdapter' do
   use_frameworks!
   pod 'Masonry'
   pod 'AppLovinSDK','13.0.1'
-
+  pod 'AnyThinkiOS','6.4.12'
 end

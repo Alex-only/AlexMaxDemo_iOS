@@ -44,7 +44,10 @@ pod 'AppLovinSDK'
 ![Max_lib](https://github.com/Alex-only/AlexMaxDemo_iOS/assets/124124788/53747ba4-bd5b-41ef-8154-d355dc2213ad)
 
 
-
+#### 3. Import Masonry
+```
+pod 'Masonry'
+```
 
 
 ###  Unity平台

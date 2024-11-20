@@ -7,22 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA068BB62CEDB5B20002E71E /* AlexMAXNetworkC2STool.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068B982CEDB5B20002E71E /* AlexMAXNetworkC2STool.m */; };
-		CA068BB72CEDB5B20002E71E /* AlexMaxSafeThreadArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068B9D2CEDB5B20002E71E /* AlexMaxSafeThreadArray.m */; };
-		CA068BB82CEDB5B20002E71E /* AlexMaxNativeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068BA92CEDB5B20002E71E /* AlexMaxNativeRenderer.m */; };
-		CA068BB92CEDB5B20002E71E /* AlexMaxInterstitialCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068BA22CEDB5B20002E71E /* AlexMaxInterstitialCustomEvent.m */; };
-		CA068BBA2CEDB5B20002E71E /* AlexMaxBannerCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068B912CEDB5B20002E71E /* AlexMaxBannerCustomEvent.m */; };
-		CA068BBB2CEDB5B20002E71E /* AlexMaxBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068B9B2CEDB5B20002E71E /* AlexMaxBaseManager.m */; };
-		CA068BBC2CEDB5B20002E71E /* AlexMaxSplashCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068BB32CEDB5B20002E71E /* AlexMaxSplashCustomEvent.m */; };
-		CA068BBD2CEDB5B20002E71E /* AlexMaxSplashAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068BB12CEDB5B20002E71E /* AlexMaxSplashAdapter.m */; };
-		CA068BBE2CEDB5B20002E71E /* AlexMaxNativeCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068BA72CEDB5B20002E71E /* AlexMaxNativeCustomEvent.m */; };
-		CA068BBF2CEDB5B20002E71E /* AlexMaxNativeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068BA52CEDB5B20002E71E /* AlexMaxNativeAdapter.m */; };
-		CA068BC02CEDB5B20002E71E /* AlexMaxRewardedVideoCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068BAE2CEDB5B20002E71E /* AlexMaxRewardedVideoCustomEvent.m */; };
-		CA068BC12CEDB5B20002E71E /* AlexMaxBiddingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068B942CEDB5B20002E71E /* AlexMaxBiddingRequest.m */; };
-		CA068BC22CEDB5B20002E71E /* AlexMaxBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068B8F2CEDB5B20002E71E /* AlexMaxBannerAdapter.m */; };
-		CA068BC32CEDB5B20002E71E /* AlexMaxInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068BA02CEDB5B20002E71E /* AlexMaxInterstitialAdapter.m */; };
-		CA068BC42CEDB5B20002E71E /* AlexMaxC2SBiddingRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068B962CEDB5B20002E71E /* AlexMaxC2SBiddingRequestManager.m */; };
-		CA068BC52CEDB5B20002E71E /* AlexMaxRewardedVideoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068BAC2CEDB5B20002E71E /* AlexMaxRewardedVideoAdapter.m */; };
+		CA068C4A2CEDC3EE0002E71E /* AlexMaxInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C342CEDC3EE0002E71E /* AlexMaxInterstitialAdapter.m */; };
+		CA068C4B2CEDC3EE0002E71E /* AlexMaxNativeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C392CEDC3EE0002E71E /* AlexMaxNativeAdapter.m */; };
+		CA068C4C2CEDC3EE0002E71E /* AlexMaxNativeCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C3B2CEDC3EE0002E71E /* AlexMaxNativeCustomEvent.m */; };
+		CA068C4D2CEDC3EE0002E71E /* AlexMaxBannerCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C252CEDC3EE0002E71E /* AlexMaxBannerCustomEvent.m */; };
+		CA068C4E2CEDC3EE0002E71E /* AlexMaxC2SBiddingRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C2A2CEDC3EE0002E71E /* AlexMaxC2SBiddingRequestManager.m */; };
+		CA068C4F2CEDC3EE0002E71E /* AlexMaxRewardedVideoCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C422CEDC3EE0002E71E /* AlexMaxRewardedVideoCustomEvent.m */; };
+		CA068C502CEDC3EE0002E71E /* AlexMaxNativeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C3D2CEDC3EE0002E71E /* AlexMaxNativeRenderer.m */; };
+		CA068C512CEDC3EE0002E71E /* AlexMaxBiddingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C282CEDC3EE0002E71E /* AlexMaxBiddingRequest.m */; };
+		CA068C522CEDC3EE0002E71E /* AlexMaxSplashCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C472CEDC3EE0002E71E /* AlexMaxSplashCustomEvent.m */; };
+		CA068C532CEDC3EE0002E71E /* AlexMaxBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C232CEDC3EE0002E71E /* AlexMaxBannerAdapter.m */; };
+		CA068C542CEDC3EE0002E71E /* AlexMAXNetworkC2STool.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C2C2CEDC3EE0002E71E /* AlexMAXNetworkC2STool.m */; };
+		CA068C552CEDC3EE0002E71E /* AlexMaxSafeThreadArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C312CEDC3EE0002E71E /* AlexMaxSafeThreadArray.m */; };
+		CA068C562CEDC3EE0002E71E /* AlexMaxInterstitialCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C362CEDC3EE0002E71E /* AlexMaxInterstitialCustomEvent.m */; };
+		CA068C572CEDC3EE0002E71E /* AlexMaxBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C2F2CEDC3EE0002E71E /* AlexMaxBaseManager.m */; };
+		CA068C582CEDC3EE0002E71E /* AlexMaxRewardedVideoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C402CEDC3EE0002E71E /* AlexMaxRewardedVideoAdapter.m */; };
+		CA068C592CEDC3EE0002E71E /* AlexMaxSplashAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068C452CEDC3EE0002E71E /* AlexMaxSplashAdapter.m */; };
+		CA068C5A2CEDC3EE0002E71E /* AlexMAXNetworkC2STool.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C2B2CEDC3EE0002E71E /* AlexMAXNetworkC2STool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C5B2CEDC3EE0002E71E /* AlexMaxInterstitialCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C352CEDC3EE0002E71E /* AlexMaxInterstitialCustomEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C5C2CEDC3EE0002E71E /* AlexMaxSafeThreadArray.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C302CEDC3EE0002E71E /* AlexMaxSafeThreadArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C5D2CEDC3EE0002E71E /* AlexMaxC2SBiddingRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C292CEDC3EE0002E71E /* AlexMaxC2SBiddingRequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C5E2CEDC3EE0002E71E /* AlexMaxBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C2E2CEDC3EE0002E71E /* AlexMaxBaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C5F2CEDC3EE0002E71E /* AlexMaxNativeCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C3A2CEDC3EE0002E71E /* AlexMaxNativeCustomEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C602CEDC3EE0002E71E /* AlexMaxBannerCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C242CEDC3EE0002E71E /* AlexMaxBannerCustomEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C612CEDC3EE0002E71E /* AlexMaxNativeRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C3C2CEDC3EE0002E71E /* AlexMaxNativeRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C622CEDC3EE0002E71E /* AlexMaxRewardedVideoAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C3F2CEDC3EE0002E71E /* AlexMaxRewardedVideoAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C632CEDC3EE0002E71E /* AlexMaxRewardedVideoCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C412CEDC3EE0002E71E /* AlexMaxRewardedVideoCustomEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C642CEDC3EE0002E71E /* AlexMaxSplashCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C462CEDC3EE0002E71E /* AlexMaxSplashCustomEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C652CEDC3EE0002E71E /* AlexMaxBannerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C222CEDC3EE0002E71E /* AlexMaxBannerAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C662CEDC3EE0002E71E /* AlexMaxBiddingRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C272CEDC3EE0002E71E /* AlexMaxBiddingRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C672CEDC3EE0002E71E /* AlexMaxInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C332CEDC3EE0002E71E /* AlexMaxInterstitialAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C682CEDC3EE0002E71E /* AlexMaxSplashAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C442CEDC3EE0002E71E /* AlexMaxSplashAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA068C692CEDC3EE0002E71E /* AlexMaxNativeAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = CA068C382CEDC3EE0002E71E /* AlexMaxNativeAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0D1A9F4298A0457008BAFBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D1A9F3298A0457008BAFBD /* AppDelegate.m */; };
 		E0D1A9F7298A0457008BAFBD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D1A9F6298A0457008BAFBD /* SceneDelegate.m */; };
 		E0D1A9FA298A0457008BAFBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D1A9F9298A0457008BAFBD /* ViewController.m */; };
@@ -31,11 +47,10 @@
 		E0D1AA02298A045B008BAFBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0D1AA00298A045B008BAFBD /* LaunchScreen.storyboard */; };
 		E0D1AA05298A045B008BAFBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D1AA04298A045B008BAFBD /* main.m */; };
 		E0D1AA13298A0A74008BAFBD /* MaxSDKAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D1AA12298A0A74008BAFBD /* MaxSDKAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0D1AA16298A0A74008BAFBD /* MaxSDKAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D1AA10298A0A74008BAFBD /* MaxSDKAdapter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E0D1AA14298A0A74008BAFBD /* PBXContainerItemProxy */ = {
+		CA068C6C2CEDC54A0002E71E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E0D1A9E7298A0457008BAFBD /* Project object */;
 			proxyType = 1;
@@ -45,38 +60,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CA068B8E2CEDB5B20002E71E /* AlexMaxBannerAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxBannerAdapter.h; sourceTree = "<group>"; };
-		CA068B8F2CEDB5B20002E71E /* AlexMaxBannerAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxBannerAdapter.m; sourceTree = "<group>"; };
-		CA068B902CEDB5B20002E71E /* AlexMaxBannerCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxBannerCustomEvent.h; sourceTree = "<group>"; };
-		CA068B912CEDB5B20002E71E /* AlexMaxBannerCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxBannerCustomEvent.m; sourceTree = "<group>"; };
-		CA068B932CEDB5B20002E71E /* AlexMaxBiddingRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxBiddingRequest.h; sourceTree = "<group>"; };
-		CA068B942CEDB5B20002E71E /* AlexMaxBiddingRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxBiddingRequest.m; sourceTree = "<group>"; };
-		CA068B952CEDB5B20002E71E /* AlexMaxC2SBiddingRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxC2SBiddingRequestManager.h; sourceTree = "<group>"; };
-		CA068B962CEDB5B20002E71E /* AlexMaxC2SBiddingRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxC2SBiddingRequestManager.m; sourceTree = "<group>"; };
-		CA068B972CEDB5B20002E71E /* AlexMAXNetworkC2STool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMAXNetworkC2STool.h; sourceTree = "<group>"; };
-		CA068B982CEDB5B20002E71E /* AlexMAXNetworkC2STool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMAXNetworkC2STool.m; sourceTree = "<group>"; };
-		CA068B9A2CEDB5B20002E71E /* AlexMaxBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxBaseManager.h; sourceTree = "<group>"; };
-		CA068B9B2CEDB5B20002E71E /* AlexMaxBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxBaseManager.m; sourceTree = "<group>"; };
-		CA068B9C2CEDB5B20002E71E /* AlexMaxSafeThreadArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxSafeThreadArray.h; sourceTree = "<group>"; };
-		CA068B9D2CEDB5B20002E71E /* AlexMaxSafeThreadArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxSafeThreadArray.m; sourceTree = "<group>"; };
-		CA068B9F2CEDB5B20002E71E /* AlexMaxInterstitialAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxInterstitialAdapter.h; sourceTree = "<group>"; };
-		CA068BA02CEDB5B20002E71E /* AlexMaxInterstitialAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxInterstitialAdapter.m; sourceTree = "<group>"; };
-		CA068BA12CEDB5B20002E71E /* AlexMaxInterstitialCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxInterstitialCustomEvent.h; sourceTree = "<group>"; };
-		CA068BA22CEDB5B20002E71E /* AlexMaxInterstitialCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxInterstitialCustomEvent.m; sourceTree = "<group>"; };
-		CA068BA42CEDB5B20002E71E /* AlexMaxNativeAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxNativeAdapter.h; sourceTree = "<group>"; };
-		CA068BA52CEDB5B20002E71E /* AlexMaxNativeAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxNativeAdapter.m; sourceTree = "<group>"; };
-		CA068BA62CEDB5B20002E71E /* AlexMaxNativeCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxNativeCustomEvent.h; sourceTree = "<group>"; };
-		CA068BA72CEDB5B20002E71E /* AlexMaxNativeCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxNativeCustomEvent.m; sourceTree = "<group>"; };
-		CA068BA82CEDB5B20002E71E /* AlexMaxNativeRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxNativeRenderer.h; sourceTree = "<group>"; };
-		CA068BA92CEDB5B20002E71E /* AlexMaxNativeRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxNativeRenderer.m; sourceTree = "<group>"; };
-		CA068BAB2CEDB5B20002E71E /* AlexMaxRewardedVideoAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxRewardedVideoAdapter.h; sourceTree = "<group>"; };
-		CA068BAC2CEDB5B20002E71E /* AlexMaxRewardedVideoAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxRewardedVideoAdapter.m; sourceTree = "<group>"; };
-		CA068BAD2CEDB5B20002E71E /* AlexMaxRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
-		CA068BAE2CEDB5B20002E71E /* AlexMaxRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
-		CA068BB02CEDB5B20002E71E /* AlexMaxSplashAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxSplashAdapter.h; sourceTree = "<group>"; };
-		CA068BB12CEDB5B20002E71E /* AlexMaxSplashAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxSplashAdapter.m; sourceTree = "<group>"; };
-		CA068BB22CEDB5B20002E71E /* AlexMaxSplashCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxSplashCustomEvent.h; sourceTree = "<group>"; };
-		CA068BB32CEDB5B20002E71E /* AlexMaxSplashCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxSplashCustomEvent.m; sourceTree = "<group>"; };
+		CA068C222CEDC3EE0002E71E /* AlexMaxBannerAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxBannerAdapter.h; sourceTree = "<group>"; };
+		CA068C232CEDC3EE0002E71E /* AlexMaxBannerAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxBannerAdapter.m; sourceTree = "<group>"; };
+		CA068C242CEDC3EE0002E71E /* AlexMaxBannerCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxBannerCustomEvent.h; sourceTree = "<group>"; };
+		CA068C252CEDC3EE0002E71E /* AlexMaxBannerCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxBannerCustomEvent.m; sourceTree = "<group>"; };
+		CA068C272CEDC3EE0002E71E /* AlexMaxBiddingRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxBiddingRequest.h; sourceTree = "<group>"; };
+		CA068C282CEDC3EE0002E71E /* AlexMaxBiddingRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxBiddingRequest.m; sourceTree = "<group>"; };
+		CA068C292CEDC3EE0002E71E /* AlexMaxC2SBiddingRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxC2SBiddingRequestManager.h; sourceTree = "<group>"; };
+		CA068C2A2CEDC3EE0002E71E /* AlexMaxC2SBiddingRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxC2SBiddingRequestManager.m; sourceTree = "<group>"; };
+		CA068C2B2CEDC3EE0002E71E /* AlexMAXNetworkC2STool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMAXNetworkC2STool.h; sourceTree = "<group>"; };
+		CA068C2C2CEDC3EE0002E71E /* AlexMAXNetworkC2STool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMAXNetworkC2STool.m; sourceTree = "<group>"; };
+		CA068C2E2CEDC3EE0002E71E /* AlexMaxBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxBaseManager.h; sourceTree = "<group>"; };
+		CA068C2F2CEDC3EE0002E71E /* AlexMaxBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxBaseManager.m; sourceTree = "<group>"; };
+		CA068C302CEDC3EE0002E71E /* AlexMaxSafeThreadArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxSafeThreadArray.h; sourceTree = "<group>"; };
+		CA068C312CEDC3EE0002E71E /* AlexMaxSafeThreadArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxSafeThreadArray.m; sourceTree = "<group>"; };
+		CA068C332CEDC3EE0002E71E /* AlexMaxInterstitialAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxInterstitialAdapter.h; sourceTree = "<group>"; };
+		CA068C342CEDC3EE0002E71E /* AlexMaxInterstitialAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxInterstitialAdapter.m; sourceTree = "<group>"; };
+		CA068C352CEDC3EE0002E71E /* AlexMaxInterstitialCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxInterstitialCustomEvent.h; sourceTree = "<group>"; };
+		CA068C362CEDC3EE0002E71E /* AlexMaxInterstitialCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxInterstitialCustomEvent.m; sourceTree = "<group>"; };
+		CA068C382CEDC3EE0002E71E /* AlexMaxNativeAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxNativeAdapter.h; sourceTree = "<group>"; };
+		CA068C392CEDC3EE0002E71E /* AlexMaxNativeAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxNativeAdapter.m; sourceTree = "<group>"; };
+		CA068C3A2CEDC3EE0002E71E /* AlexMaxNativeCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxNativeCustomEvent.h; sourceTree = "<group>"; };
+		CA068C3B2CEDC3EE0002E71E /* AlexMaxNativeCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxNativeCustomEvent.m; sourceTree = "<group>"; };
+		CA068C3C2CEDC3EE0002E71E /* AlexMaxNativeRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxNativeRenderer.h; sourceTree = "<group>"; };
+		CA068C3D2CEDC3EE0002E71E /* AlexMaxNativeRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxNativeRenderer.m; sourceTree = "<group>"; };
+		CA068C3F2CEDC3EE0002E71E /* AlexMaxRewardedVideoAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxRewardedVideoAdapter.h; sourceTree = "<group>"; };
+		CA068C402CEDC3EE0002E71E /* AlexMaxRewardedVideoAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxRewardedVideoAdapter.m; sourceTree = "<group>"; };
+		CA068C412CEDC3EE0002E71E /* AlexMaxRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
+		CA068C422CEDC3EE0002E71E /* AlexMaxRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
+		CA068C442CEDC3EE0002E71E /* AlexMaxSplashAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxSplashAdapter.h; sourceTree = "<group>"; };
+		CA068C452CEDC3EE0002E71E /* AlexMaxSplashAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxSplashAdapter.m; sourceTree = "<group>"; };
+		CA068C462CEDC3EE0002E71E /* AlexMaxSplashCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxSplashCustomEvent.h; sourceTree = "<group>"; };
+		CA068C472CEDC3EE0002E71E /* AlexMaxSplashCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxSplashCustomEvent.m; sourceTree = "<group>"; };
 		E0D1A9EF298A0457008BAFBD /* MaxCustomSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxCustomSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0D1A9F2298A0457008BAFBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0D1A9F3298A0457008BAFBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,7 +113,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0D1AA16298A0A74008BAFBD /* MaxSDKAdapter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,97 +133,97 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		CA068B922CEDB5B20002E71E /* Banner */ = {
+		CA068C262CEDC3EE0002E71E /* Banner */ = {
 			isa = PBXGroup;
 			children = (
-				CA068B8E2CEDB5B20002E71E /* AlexMaxBannerAdapter.h */,
-				CA068B8F2CEDB5B20002E71E /* AlexMaxBannerAdapter.m */,
-				CA068B902CEDB5B20002E71E /* AlexMaxBannerCustomEvent.h */,
-				CA068B912CEDB5B20002E71E /* AlexMaxBannerCustomEvent.m */,
+				CA068C222CEDC3EE0002E71E /* AlexMaxBannerAdapter.h */,
+				CA068C232CEDC3EE0002E71E /* AlexMaxBannerAdapter.m */,
+				CA068C242CEDC3EE0002E71E /* AlexMaxBannerCustomEvent.h */,
+				CA068C252CEDC3EE0002E71E /* AlexMaxBannerCustomEvent.m */,
 			);
 			path = Banner;
 			sourceTree = "<group>";
 		};
-		CA068B992CEDB5B20002E71E /* C2S */ = {
+		CA068C2D2CEDC3EE0002E71E /* C2S */ = {
 			isa = PBXGroup;
 			children = (
-				CA068B932CEDB5B20002E71E /* AlexMaxBiddingRequest.h */,
-				CA068B942CEDB5B20002E71E /* AlexMaxBiddingRequest.m */,
-				CA068B952CEDB5B20002E71E /* AlexMaxC2SBiddingRequestManager.h */,
-				CA068B962CEDB5B20002E71E /* AlexMaxC2SBiddingRequestManager.m */,
-				CA068B972CEDB5B20002E71E /* AlexMAXNetworkC2STool.h */,
-				CA068B982CEDB5B20002E71E /* AlexMAXNetworkC2STool.m */,
+				CA068C272CEDC3EE0002E71E /* AlexMaxBiddingRequest.h */,
+				CA068C282CEDC3EE0002E71E /* AlexMaxBiddingRequest.m */,
+				CA068C292CEDC3EE0002E71E /* AlexMaxC2SBiddingRequestManager.h */,
+				CA068C2A2CEDC3EE0002E71E /* AlexMaxC2SBiddingRequestManager.m */,
+				CA068C2B2CEDC3EE0002E71E /* AlexMAXNetworkC2STool.h */,
+				CA068C2C2CEDC3EE0002E71E /* AlexMAXNetworkC2STool.m */,
 			);
 			path = C2S;
 			sourceTree = "<group>";
 		};
-		CA068B9E2CEDB5B20002E71E /* Base */ = {
+		CA068C322CEDC3EE0002E71E /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				CA068B992CEDB5B20002E71E /* C2S */,
-				CA068B9A2CEDB5B20002E71E /* AlexMaxBaseManager.h */,
-				CA068B9B2CEDB5B20002E71E /* AlexMaxBaseManager.m */,
-				CA068B9C2CEDB5B20002E71E /* AlexMaxSafeThreadArray.h */,
-				CA068B9D2CEDB5B20002E71E /* AlexMaxSafeThreadArray.m */,
+				CA068C2D2CEDC3EE0002E71E /* C2S */,
+				CA068C2E2CEDC3EE0002E71E /* AlexMaxBaseManager.h */,
+				CA068C2F2CEDC3EE0002E71E /* AlexMaxBaseManager.m */,
+				CA068C302CEDC3EE0002E71E /* AlexMaxSafeThreadArray.h */,
+				CA068C312CEDC3EE0002E71E /* AlexMaxSafeThreadArray.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		CA068BA32CEDB5B20002E71E /* Interstitial */ = {
+		CA068C372CEDC3EE0002E71E /* Interstitial */ = {
 			isa = PBXGroup;
 			children = (
-				CA068B9F2CEDB5B20002E71E /* AlexMaxInterstitialAdapter.h */,
-				CA068BA02CEDB5B20002E71E /* AlexMaxInterstitialAdapter.m */,
-				CA068BA12CEDB5B20002E71E /* AlexMaxInterstitialCustomEvent.h */,
-				CA068BA22CEDB5B20002E71E /* AlexMaxInterstitialCustomEvent.m */,
+				CA068C332CEDC3EE0002E71E /* AlexMaxInterstitialAdapter.h */,
+				CA068C342CEDC3EE0002E71E /* AlexMaxInterstitialAdapter.m */,
+				CA068C352CEDC3EE0002E71E /* AlexMaxInterstitialCustomEvent.h */,
+				CA068C362CEDC3EE0002E71E /* AlexMaxInterstitialCustomEvent.m */,
 			);
 			path = Interstitial;
 			sourceTree = "<group>";
 		};
-		CA068BAA2CEDB5B20002E71E /* Native */ = {
+		CA068C3E2CEDC3EE0002E71E /* Native */ = {
 			isa = PBXGroup;
 			children = (
-				CA068BA42CEDB5B20002E71E /* AlexMaxNativeAdapter.h */,
-				CA068BA52CEDB5B20002E71E /* AlexMaxNativeAdapter.m */,
-				CA068BA62CEDB5B20002E71E /* AlexMaxNativeCustomEvent.h */,
-				CA068BA72CEDB5B20002E71E /* AlexMaxNativeCustomEvent.m */,
-				CA068BA82CEDB5B20002E71E /* AlexMaxNativeRenderer.h */,
-				CA068BA92CEDB5B20002E71E /* AlexMaxNativeRenderer.m */,
+				CA068C382CEDC3EE0002E71E /* AlexMaxNativeAdapter.h */,
+				CA068C392CEDC3EE0002E71E /* AlexMaxNativeAdapter.m */,
+				CA068C3A2CEDC3EE0002E71E /* AlexMaxNativeCustomEvent.h */,
+				CA068C3B2CEDC3EE0002E71E /* AlexMaxNativeCustomEvent.m */,
+				CA068C3C2CEDC3EE0002E71E /* AlexMaxNativeRenderer.h */,
+				CA068C3D2CEDC3EE0002E71E /* AlexMaxNativeRenderer.m */,
 			);
 			path = Native;
 			sourceTree = "<group>";
 		};
-		CA068BAF2CEDB5B20002E71E /* RewardedVideo */ = {
+		CA068C432CEDC3EE0002E71E /* RewardedVideo */ = {
 			isa = PBXGroup;
 			children = (
-				CA068BAB2CEDB5B20002E71E /* AlexMaxRewardedVideoAdapter.h */,
-				CA068BAC2CEDB5B20002E71E /* AlexMaxRewardedVideoAdapter.m */,
-				CA068BAD2CEDB5B20002E71E /* AlexMaxRewardedVideoCustomEvent.h */,
-				CA068BAE2CEDB5B20002E71E /* AlexMaxRewardedVideoCustomEvent.m */,
+				CA068C3F2CEDC3EE0002E71E /* AlexMaxRewardedVideoAdapter.h */,
+				CA068C402CEDC3EE0002E71E /* AlexMaxRewardedVideoAdapter.m */,
+				CA068C412CEDC3EE0002E71E /* AlexMaxRewardedVideoCustomEvent.h */,
+				CA068C422CEDC3EE0002E71E /* AlexMaxRewardedVideoCustomEvent.m */,
 			);
 			path = RewardedVideo;
 			sourceTree = "<group>";
 		};
-		CA068BB42CEDB5B20002E71E /* Splash */ = {
+		CA068C482CEDC3EE0002E71E /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				CA068BB02CEDB5B20002E71E /* AlexMaxSplashAdapter.h */,
-				CA068BB12CEDB5B20002E71E /* AlexMaxSplashAdapter.m */,
-				CA068BB22CEDB5B20002E71E /* AlexMaxSplashCustomEvent.h */,
-				CA068BB32CEDB5B20002E71E /* AlexMaxSplashCustomEvent.m */,
+				CA068C442CEDC3EE0002E71E /* AlexMaxSplashAdapter.h */,
+				CA068C452CEDC3EE0002E71E /* AlexMaxSplashAdapter.m */,
+				CA068C462CEDC3EE0002E71E /* AlexMaxSplashCustomEvent.h */,
+				CA068C472CEDC3EE0002E71E /* AlexMaxSplashCustomEvent.m */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
 		};
-		CA068BB52CEDB5B20002E71E /* Max */ = {
+		CA068C492CEDC3EE0002E71E /* Max */ = {
 			isa = PBXGroup;
 			children = (
-				CA068B922CEDB5B20002E71E /* Banner */,
-				CA068B9E2CEDB5B20002E71E /* Base */,
-				CA068BA32CEDB5B20002E71E /* Interstitial */,
-				CA068BAA2CEDB5B20002E71E /* Native */,
-				CA068BAF2CEDB5B20002E71E /* RewardedVideo */,
-				CA068BB42CEDB5B20002E71E /* Splash */,
+				CA068C262CEDC3EE0002E71E /* Banner */,
+				CA068C322CEDC3EE0002E71E /* Base */,
+				CA068C372CEDC3EE0002E71E /* Interstitial */,
+				CA068C3E2CEDC3EE0002E71E /* Native */,
+				CA068C432CEDC3EE0002E71E /* RewardedVideo */,
+				CA068C482CEDC3EE0002E71E /* Splash */,
 			);
 			path = Max;
 			sourceTree = "<group>";
@@ -236,7 +250,7 @@
 		E0D1A9F1298A0457008BAFBD /* MaxCustomSDK */ = {
 			isa = PBXGroup;
 			children = (
-				CA068BB52CEDB5B20002E71E /* Max */,
+				CA068C492CEDC3EE0002E71E /* Max */,
 				E0D1A9F2298A0457008BAFBD /* AppDelegate.h */,
 				E0D1A9F3298A0457008BAFBD /* AppDelegate.m */,
 				E0D1A9F5298A0457008BAFBD /* SceneDelegate.h */,
@@ -267,6 +281,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA068C5A2CEDC3EE0002E71E /* AlexMAXNetworkC2STool.h in Headers */,
+				CA068C5B2CEDC3EE0002E71E /* AlexMaxInterstitialCustomEvent.h in Headers */,
+				CA068C5C2CEDC3EE0002E71E /* AlexMaxSafeThreadArray.h in Headers */,
+				CA068C5D2CEDC3EE0002E71E /* AlexMaxC2SBiddingRequestManager.h in Headers */,
+				CA068C5E2CEDC3EE0002E71E /* AlexMaxBaseManager.h in Headers */,
+				CA068C5F2CEDC3EE0002E71E /* AlexMaxNativeCustomEvent.h in Headers */,
+				CA068C602CEDC3EE0002E71E /* AlexMaxBannerCustomEvent.h in Headers */,
+				CA068C612CEDC3EE0002E71E /* AlexMaxNativeRenderer.h in Headers */,
+				CA068C622CEDC3EE0002E71E /* AlexMaxRewardedVideoAdapter.h in Headers */,
+				CA068C632CEDC3EE0002E71E /* AlexMaxRewardedVideoCustomEvent.h in Headers */,
+				CA068C642CEDC3EE0002E71E /* AlexMaxSplashCustomEvent.h in Headers */,
+				CA068C652CEDC3EE0002E71E /* AlexMaxBannerAdapter.h in Headers */,
+				CA068C662CEDC3EE0002E71E /* AlexMaxBiddingRequest.h in Headers */,
+				CA068C672CEDC3EE0002E71E /* AlexMaxInterstitialAdapter.h in Headers */,
+				CA068C682CEDC3EE0002E71E /* AlexMaxSplashAdapter.h in Headers */,
+				CA068C692CEDC3EE0002E71E /* AlexMaxNativeAdapter.h in Headers */,
 				E0D1AA13298A0A74008BAFBD /* MaxSDKAdapter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +315,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E0D1AA15298A0A74008BAFBD /* PBXTargetDependency */,
+				CA068C6D2CEDC54A0002E71E /* PBXTargetDependency */,
 			);
 			name = MaxCustomSDK;
 			productName = MaxCustomSDK;
@@ -373,22 +403,6 @@
 			files = (
 				E0D1A9FA298A0457008BAFBD /* ViewController.m in Sources */,
 				E0D1A9F4298A0457008BAFBD /* AppDelegate.m in Sources */,
-				CA068BB62CEDB5B20002E71E /* AlexMAXNetworkC2STool.m in Sources */,
-				CA068BB72CEDB5B20002E71E /* AlexMaxSafeThreadArray.m in Sources */,
-				CA068BB82CEDB5B20002E71E /* AlexMaxNativeRenderer.m in Sources */,
-				CA068BB92CEDB5B20002E71E /* AlexMaxInterstitialCustomEvent.m in Sources */,
-				CA068BBA2CEDB5B20002E71E /* AlexMaxBannerCustomEvent.m in Sources */,
-				CA068BBB2CEDB5B20002E71E /* AlexMaxBaseManager.m in Sources */,
-				CA068BBC2CEDB5B20002E71E /* AlexMaxSplashCustomEvent.m in Sources */,
-				CA068BBD2CEDB5B20002E71E /* AlexMaxSplashAdapter.m in Sources */,
-				CA068BBE2CEDB5B20002E71E /* AlexMaxNativeCustomEvent.m in Sources */,
-				CA068BBF2CEDB5B20002E71E /* AlexMaxNativeAdapter.m in Sources */,
-				CA068BC02CEDB5B20002E71E /* AlexMaxRewardedVideoCustomEvent.m in Sources */,
-				CA068BC12CEDB5B20002E71E /* AlexMaxBiddingRequest.m in Sources */,
-				CA068BC22CEDB5B20002E71E /* AlexMaxBannerAdapter.m in Sources */,
-				CA068BC32CEDB5B20002E71E /* AlexMaxInterstitialAdapter.m in Sources */,
-				CA068BC42CEDB5B20002E71E /* AlexMaxC2SBiddingRequestManager.m in Sources */,
-				CA068BC52CEDB5B20002E71E /* AlexMaxRewardedVideoAdapter.m in Sources */,
 				E0D1AA05298A045B008BAFBD /* main.m in Sources */,
 				E0D1A9F7298A0457008BAFBD /* SceneDelegate.m in Sources */,
 			);
@@ -398,16 +412,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA068C4A2CEDC3EE0002E71E /* AlexMaxInterstitialAdapter.m in Sources */,
+				CA068C4B2CEDC3EE0002E71E /* AlexMaxNativeAdapter.m in Sources */,
+				CA068C4C2CEDC3EE0002E71E /* AlexMaxNativeCustomEvent.m in Sources */,
+				CA068C4D2CEDC3EE0002E71E /* AlexMaxBannerCustomEvent.m in Sources */,
+				CA068C4E2CEDC3EE0002E71E /* AlexMaxC2SBiddingRequestManager.m in Sources */,
+				CA068C4F2CEDC3EE0002E71E /* AlexMaxRewardedVideoCustomEvent.m in Sources */,
+				CA068C502CEDC3EE0002E71E /* AlexMaxNativeRenderer.m in Sources */,
+				CA068C512CEDC3EE0002E71E /* AlexMaxBiddingRequest.m in Sources */,
+				CA068C522CEDC3EE0002E71E /* AlexMaxSplashCustomEvent.m in Sources */,
+				CA068C532CEDC3EE0002E71E /* AlexMaxBannerAdapter.m in Sources */,
+				CA068C542CEDC3EE0002E71E /* AlexMAXNetworkC2STool.m in Sources */,
+				CA068C552CEDC3EE0002E71E /* AlexMaxSafeThreadArray.m in Sources */,
+				CA068C562CEDC3EE0002E71E /* AlexMaxInterstitialCustomEvent.m in Sources */,
+				CA068C572CEDC3EE0002E71E /* AlexMaxBaseManager.m in Sources */,
+				CA068C582CEDC3EE0002E71E /* AlexMaxRewardedVideoAdapter.m in Sources */,
+				CA068C592CEDC3EE0002E71E /* AlexMaxSplashAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E0D1AA15298A0A74008BAFBD /* PBXTargetDependency */ = {
+		CA068C6D2CEDC54A0002E71E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E0D1AA0F298A0A74008BAFBD /* MaxSDKAdapter */;
-			targetProxy = E0D1AA14298A0A74008BAFBD /* PBXContainerItemProxy */;
+			targetProxy = CA068C6C2CEDC54A0002E71E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
