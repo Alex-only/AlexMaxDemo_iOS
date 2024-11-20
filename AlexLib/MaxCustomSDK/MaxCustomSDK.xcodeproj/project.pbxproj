@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D79A095BDAD938432947CA0 /* Pods_MaxSDKAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF66E22F21C0CC3D6142C9C /* Pods_MaxSDKAdapter.framework */; };
-		8E417C78D94A772A55EBFF13 /* Pods_MaxCustomSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA20C89231B3756F477D47B /* Pods_MaxCustomSDK.framework */; };
 		CA068BB62CEDB5B20002E71E /* AlexMAXNetworkC2STool.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068B982CEDB5B20002E71E /* AlexMAXNetworkC2STool.m */; };
 		CA068BB72CEDB5B20002E71E /* AlexMaxSafeThreadArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068B9D2CEDB5B20002E71E /* AlexMaxSafeThreadArray.m */; };
 		CA068BB82CEDB5B20002E71E /* AlexMaxNativeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = CA068BA92CEDB5B20002E71E /* AlexMaxNativeRenderer.m */; };
@@ -47,12 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02870F928A45AEFD3D1F6FDE /* Pods-MaxCustomSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxCustomSDK.debug.xcconfig"; path = "Target Support Files/Pods-MaxCustomSDK/Pods-MaxCustomSDK.debug.xcconfig"; sourceTree = "<group>"; };
-		0321B26A2CC78BC592F297BF /* Pods-MaxCustomSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxCustomSDK.release.xcconfig"; path = "Target Support Files/Pods-MaxCustomSDK/Pods-MaxCustomSDK.release.xcconfig"; sourceTree = "<group>"; };
-		0CA20C89231B3756F477D47B /* Pods_MaxCustomSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaxCustomSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1919D50801E63109D8C813D4 /* Pods-MaxSDKAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxSDKAdapter.debug.xcconfig"; path = "Target Support Files/Pods-MaxSDKAdapter/Pods-MaxSDKAdapter.debug.xcconfig"; sourceTree = "<group>"; };
-		9AF66E22F21C0CC3D6142C9C /* Pods_MaxSDKAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaxSDKAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABC378AE3C1F20C7409E528B /* Pods-MaxSDKAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxSDKAdapter.release.xcconfig"; path = "Target Support Files/Pods-MaxSDKAdapter/Pods-MaxSDKAdapter.release.xcconfig"; sourceTree = "<group>"; };
 		CA068B8E2CEDB5B20002E71E /* AlexMaxBannerAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxBannerAdapter.h; sourceTree = "<group>"; };
 		CA068B8F2CEDB5B20002E71E /* AlexMaxBannerAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexMaxBannerAdapter.m; sourceTree = "<group>"; };
 		CA068B902CEDB5B20002E71E /* AlexMaxBannerCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexMaxBannerCustomEvent.h; sourceTree = "<group>"; };
@@ -107,7 +99,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0D1AA16298A0A74008BAFBD /* MaxSDKAdapter.framework in Frameworks */,
-				8E417C78D94A772A55EBFF13 /* Pods_MaxCustomSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +106,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D79A095BDAD938432947CA0 /* Pods_MaxSDKAdapter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,21 +115,8 @@
 		17D7D1B73EEF9AFB75C3AA85 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				02870F928A45AEFD3D1F6FDE /* Pods-MaxCustomSDK.debug.xcconfig */,
-				0321B26A2CC78BC592F297BF /* Pods-MaxCustomSDK.release.xcconfig */,
-				1919D50801E63109D8C813D4 /* Pods-MaxSDKAdapter.debug.xcconfig */,
-				ABC378AE3C1F20C7409E528B /* Pods-MaxSDKAdapter.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		6313FD8F1B1855F959706533 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0CA20C89231B3756F477D47B /* Pods_MaxCustomSDK.framework */,
-				9AF66E22F21C0CC3D6142C9C /* Pods_MaxSDKAdapter.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CA068B922CEDB5B20002E71E /* Banner */ = {
@@ -244,7 +221,6 @@
 				E0D1AA11298A0A74008BAFBD /* MaxSDKAdapter */,
 				E0D1A9F0298A0457008BAFBD /* Products */,
 				17D7D1B73EEF9AFB75C3AA85 /* Pods */,
-				6313FD8F1B1855F959706533 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -302,12 +278,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0D1AA08298A045B008BAFBD /* Build configuration list for PBXNativeTarget "MaxCustomSDK" */;
 			buildPhases = (
-				91F62640ADB0219BBD1C936E /* [CP] Check Pods Manifest.lock */,
 				E0D1A9EB298A0457008BAFBD /* Sources */,
 				E0D1A9EC298A0457008BAFBD /* Frameworks */,
 				E0D1A9ED298A0457008BAFBD /* Resources */,
-				2BF31488A11F6057D1B9E266 /* [CP] Copy Pods Resources */,
-				4897A7359AB7263E5C3E3358 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -323,12 +296,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0D1AA18298A0A74008BAFBD /* Build configuration list for PBXNativeTarget "MaxSDKAdapter" */;
 			buildPhases = (
-				2E0E9689C02A8E944CE80F6A /* [CP] Check Pods Manifest.lock */,
 				E0D1AA0B298A0A74008BAFBD /* Headers */,
 				E0D1AA0C298A0A74008BAFBD /* Sources */,
 				E0D1AA0D298A0A74008BAFBD /* Frameworks */,
 				E0D1AA0E298A0A74008BAFBD /* Resources */,
-				2FCFABFBD4943D0AF47F06B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -394,104 +365,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2BF31488A11F6057D1B9E266 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MaxCustomSDK/Pods-MaxCustomSDK-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MaxCustomSDK/Pods-MaxCustomSDK-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaxCustomSDK/Pods-MaxCustomSDK-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2E0E9689C02A8E944CE80F6A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MaxSDKAdapter-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2FCFABFBD4943D0AF47F06B5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MaxSDKAdapter/Pods-MaxSDKAdapter-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MaxSDKAdapter/Pods-MaxSDKAdapter-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaxSDKAdapter/Pods-MaxSDKAdapter-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4897A7359AB7263E5C3E3358 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MaxCustomSDK/Pods-MaxCustomSDK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MaxCustomSDK/Pods-MaxCustomSDK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaxCustomSDK/Pods-MaxCustomSDK-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		91F62640ADB0219BBD1C936E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MaxCustomSDK-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0D1A9EB298A0457008BAFBD /* Sources */ = {
@@ -670,7 +543,6 @@
 		};
 		E0D1AA09298A045B008BAFBD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02870F928A45AEFD3D1F6FDE /* Pods-MaxCustomSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -699,7 +571,6 @@
 		};
 		E0D1AA0A298A045B008BAFBD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0321B26A2CC78BC592F297BF /* Pods-MaxCustomSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -728,7 +599,6 @@
 		};
 		E0D1AA19298A0A74008BAFBD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1919D50801E63109D8C813D4 /* Pods-MaxSDKAdapter.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
@@ -762,7 +632,6 @@
 		};
 		E0D1AA1A298A0A74008BAFBD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABC378AE3C1F20C7409E528B /* Pods-MaxSDKAdapter.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;

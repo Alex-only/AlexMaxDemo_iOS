@@ -6,8 +6,8 @@ target 'MaxCustomSDK' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'Masonry'
-  pod 'AppLovinSDK','12.3.1'
-  pod 'AnyThinkiOS','6.2.98'
+  pod 'AppLovinSDK','13.0.1'
+  pod 'AnyThinkiOS','6.4.12'
   # Pods for MaxCustomSDK
 
   post_install do |installer|
@@ -27,7 +27,7 @@ target 'MaxSDKAdapter' do
   use_frameworks!
   pod 'Masonry'
   
-  pod 'AppLovinSDK','12.3.1'
-  pod 'AnyThinkiOS','6.2.98'
+  pod 'AppLovinSDK','13.0.1'
+  pod 'AnyThinkiOS','6.4.12'
 
 end
