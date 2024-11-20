@@ -26,8 +26,6 @@ target 'MaxSDKAdapter' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'Masonry'
-  
   pod 'AppLovinSDK','13.0.1'
-  pod 'AnyThinkiOS','6.4.12'
 
 end
