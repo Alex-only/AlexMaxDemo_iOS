@@ -14,9 +14,6 @@
 其他点：
 1.支持Max的自渲染广告接入，目前能适配Applovin，Admob，Pangle 的接入，[MaxAdapter支持版本](https://dash.applovin.com/documentation/mediation/ios/ad-formats/native-manual)
 
-2. Added support for control MAX auto load.
-TopOn后台参数 : {"auto_load_sw":"1"} 值为1则允许，值为2则不允许
-
 
 # 集成
 
