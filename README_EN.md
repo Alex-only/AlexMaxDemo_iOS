@@ -14,10 +14,6 @@ Other:
 
 1. Added support for MAX's native self-rendered ad integration. Currently compatible with Applovin, Admob, and Pangle. Please refer to the [MaxAdapter support versions](https://dash.applovin.com/documentation/mediation/ios/ad-formats/native-manual) for more information.
 
-2. Added support for control MAX auto load.
-Dashboard custom params : {"auto_load_sw":"1"} - When the value is 1, it allows; when the value is 2, it does not allow.
-
-
 # integration
 
 ## 1. Access TopOn SDK
