@@ -50,6 +50,10 @@
                 [[AlexMAXNetworkC2STool sharedInstance] removeRequestItemWithUnitID:serverInfo[@"unit_id"]];
                 
             } else {
+                
+                ATUnitGroupModel *unitGroup = serverInfo[kATAdapterCustomInfoUnitGroupModelKey];
+                [AlexMaxBaseManager offMaxPrecacheWithUnit:serverInfo[@"unit_id"] unitGroupModel:unitGroup];
+
                 self.customEvent = [[AlexMaxNativeCustomEvent alloc]initWithInfo:serverInfo localInfo:localInfo];
                 self.customEvent.requestCompletionBlock = completion;
                 self.maxNativeAdLoader = [[MANativeAdLoader alloc] initWithAdUnitIdentifier:serverInfo[@"unit_id"] sdk:[ALSdk shared]];

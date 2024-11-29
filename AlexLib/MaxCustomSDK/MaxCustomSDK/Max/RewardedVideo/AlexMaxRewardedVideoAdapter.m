@@ -52,6 +52,10 @@
                 // remove requestItem
                 [[AlexMAXNetworkC2STool sharedInstance] removeRequestItemWithUnitID:serverInfo[@"unit_id"]];
             } else {
+                
+                ATUnitGroupModel *unitGroup = serverInfo[kATAdapterCustomInfoUnitGroupModelKey];
+                [AlexMaxBaseManager offMaxPrecacheWithUnit:serverInfo[@"unit_id"] unitGroupModel:unitGroup];
+
                 self.customEvent = [[AlexMaxRewardedVideoCustomEvent alloc]initWithInfo:serverInfo localInfo:localInfo];
                 self.customEvent.requestCompletionBlock = completion;
                 self.customEvent.customEventMetaDataDidLoadedBlock = self.metaDataDidLoadedBlock;

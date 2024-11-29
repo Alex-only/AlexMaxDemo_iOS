@@ -1,10 +1,4 @@
-//
-//  AlexMaxSafeThreadArray.m
-//  AlexMaxAdapter
-//
-//  Created by Topon on 2024/3/27.
-//  Copyright © 2024 AnyThink. All rights reserved.
-//
+
 
 #import "AlexMaxSafeThreadArray.h"
 #import <pthread.h>
@@ -30,11 +24,8 @@ pthread_mutex_unlock(&_mutex_lock);
 
 #pragma mark - init
 - (void)__initMutex:(pthread_mutex_t *)mutex {
-    // 递归锁：允许同一个线程对一把锁进行重复加锁
-    // 初始化属性
     pthread_mutexattr_init(&_attr);
     pthread_mutexattr_settype(&_attr, PTHREAD_MUTEX_RECURSIVE);
-    // 初始化锁
     pthread_mutex_init(mutex, &_attr);
 }
 

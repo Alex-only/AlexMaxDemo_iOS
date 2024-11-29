@@ -39,7 +39,7 @@
     [self slefRenderRenderOffer:offer];
 }
 
-#pragma mark - 模板
+#pragma mark - template
 - (void)templateRenderOffer:(ATNativeADCache * _Nonnull)offer {
     
     MANativeAdView *view = offer.assets[kAlexMAXNativeAssetsExpressAdViewKey];
@@ -52,7 +52,7 @@
     }];
 }
 
-#pragma mark - 自渲染
+#pragma mark - slefRender
 - (void)slefRenderRenderOffer:(ATNativeADCache * _Nonnull)offer {
     
     if (!self.nativeAdView) {

@@ -8,13 +8,14 @@
 | 1.0.4       |  >= 6.2.98            |   >= 12.3.1  |
 | 1.0.3       |  >= 6.2.87  <6.2.98          | 12.1.0  |
 | 1.0.2 | >= 6.2.10  <6.2.87      |  -  |
+| 1.0.8 | >=6.4.12 | >= 13.0.1 |
 
 Other:
 
 1. Added support for MAX's native self-rendered ad integration. Currently compatible with Applovin, Admob, and Pangle. Please refer to the [MaxAdapter support versions](https://dash.applovin.com/documentation/mediation/ios/ad-formats/native-manual) for more information.
 
-   
-
+2. Added support for control MAX auto load.
+Dashboard custom params : {"auto_load_sw":"1"} - When the value is 1, it allows; when the value is 2, it does not allow.
 
 
 # integration

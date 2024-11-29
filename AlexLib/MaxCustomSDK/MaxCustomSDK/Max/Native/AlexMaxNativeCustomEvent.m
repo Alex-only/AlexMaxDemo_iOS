@@ -53,7 +53,8 @@ NSString *const kAlexMAXNativeAssetsExpressAdViewKey = @"max_express_ad_view";
         [self maxSelfRenderWithMaAd:ad];
     }
 }
-#pragma mark - 自渲染
+
+#pragma mark - selfRender
 - (void)selfRenderingDidLoadNativeAd:(MAAd * _Nonnull)ad{
     self.maxAd = ad;
     if (self.isC2SBiding) {
@@ -85,7 +86,7 @@ NSString *const kAlexMAXNativeAssetsExpressAdViewKey = @"max_express_ad_view";
     }
 }
 
-#pragma mark - 模板
+#pragma mark - template
 - (void)templateDidLoadNativeAd:(MAAd * _Nonnull)ad nativeAdView:(MANativeAdView * _Nullable)nativeAdView {
     
     if (self.isC2SBiding) {
