@@ -152,7 +152,9 @@ NSString *const kAlexMAXNativeAssetsExpressAdViewKey = @"max_express_ad_view";
     [customInfo setValue:self.maxAd.networkName forKey:@"NetworkName"];
     [customInfo setValue:self.maxAd.networkPlacement forKey:@"NetworkPlacement"];
     [customInfo setValue:self.maxAd.placement forKey:@"Placement"];
-    
+    [customInfo setValue:self.maxAd.DSPName forKey:@"DSPName"];
+    [customInfo setValue:self.maxAd.DSPIdentifier forKey:@"DSPIdentifier"];
+    [customInfo setValue:[NSValue valueWithCGSize:self.maxAd.size] forKey:@"Size"];
     ALSdk *alSdk = [ALSdk sharedWithKey:self.serverInfo[@"sdk_key"]];
     [customInfo setValue:alSdk.configuration.countryCode forKey:@"CountryCode"];
     return customInfo;

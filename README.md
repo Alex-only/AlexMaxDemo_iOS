@@ -9,7 +9,7 @@
 | 1.0.3       |  >= 6.2.87  <6.2.98          | 12.1.0  |
 | 1.0.2 | >= 6.2.10  <6.2.87      |  -  |
 | 1.0.6 | >=6.3.62 | >= 12.6.0 |
-| 1.0.8 | >=6.4.12 | >= 13.0.1 |
+| 1.0.8.x | >=6.4.12 | >= 13.0.1 |
 
 其他点：
 1.支持Max的自渲染广告接入，目前能适配Applovin，Admob，Pangle 的接入，[MaxAdapter支持版本](https://dash.applovin.com/documentation/mediation/ios/ad-formats/native-manual)
