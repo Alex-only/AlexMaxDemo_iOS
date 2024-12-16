@@ -47,7 +47,8 @@ pod 'Masonry'
 ```
 
 
-###  Unity平台
+
+###  Unity Platform
 
 We just need to import the MaxSDKAdapter.framework into the path，`Assets/AnyThinkAds/Plugins/iOS`，
 
@@ -59,7 +60,7 @@ To add the MaxSDKAdapter.framework to your Xcode project using a Podfile,  pod i
 pod 'AppLovinSDK'
 ```
 
-###  Flutter平台
+###  Flutter
 
 To import the MaxSDKAdapter.framework into the specified path `plugins/anythink_sdk/ios/ThirdPartySDK` and then install the dependencies using `pod install`
 
@@ -87,7 +88,7 @@ The JSON configuration example when adding an ad source in the background is as 
 
 
 
-## 三. Max integrates with other advertising platforms
+## 3. Max integrates with other advertising platforms
 
 <font color='red'>If you do not need to access other advertising platforms through Max, you can skip this part.</font>
 
@@ -214,7 +215,7 @@ Create app and ad unit in MAX-->Manage-->Ad Units
 
 The corresponding relationship between MAX’s Unit and TopOn’s placement type is as follows:
 
-| MAX-Unit     | TopOn-广告类型 |
+| MAX-Unit     | TopOn-Ad Type |
 | ------------ | -------------- |
 | Banner       | Banner         |
 | Interstitial | Interstitial   |
