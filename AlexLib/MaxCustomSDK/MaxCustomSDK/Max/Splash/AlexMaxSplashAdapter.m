@@ -19,22 +19,30 @@
     return self;
 }
 
+- (void)callbackLoadFailedWithError:(NSError *)error localInfo:(NSDictionary *)localInfo serverInfo:(NSDictionary *)serverInfo completion:(void (^)(NSArray<NSDictionary *> *, NSError *))completion {
+    self.customEvent = [[AlexMaxSplashCustomEvent alloc] initWithInfo:serverInfo localInfo:localInfo];
+    self.customEvent.requestCompletionBlock = completion;
+    [self.customEvent trackSplashAdLoadFailed:error];
+}
+
 - (void)loadADWithInfo:(NSDictionary*)serverInfo localInfo:(NSDictionary*)localInfo completion:(void (^)(NSArray<NSDictionary *> *, NSError *))completion {
-    
     if ([AlexMaxBaseManager isLimitCOPPA]) {
-        self.customEvent = [[AlexMaxSplashCustomEvent alloc]initWithInfo:serverInfo localInfo:localInfo];
-        self.customEvent.requestCompletionBlock = completion;
-        NSError *error = [NSError errorWithDomain:ATADLoadingErrorDomain code:ATAdErrorCodeADOfferLoadingFailed userInfo:@{NSLocalizedDescriptionKey:@"AppLovin SDK 13.0.0 or higher does not support child users.", NSLocalizedFailureReasonErrorKey:@"1011"}];
-        [self.customEvent trackSplashAdLoadFailed:error];
+        NSError *error = [NSError errorWithDomain:ATADLoadingErrorDomain code:ATAdErrorCodeADOfferLoadingFailed userInfo:@{NSLocalizedDescriptionKey:@"AppLovin SDK 13.0.1 or higher does not support child users.", NSLocalizedFailureReasonErrorKey:@"1011"}];
+        [self callbackLoadFailedWithError:error localInfo:localInfo serverInfo:serverInfo completion:completion];
         return;
     }
     
     [AlexMaxBaseManager initWithCustomInfo:serverInfo localInfo:localInfo maxInitFinishBlock:^{
         dispatch_async(dispatch_get_main_queue(), ^{
             NSString *bidId = serverInfo[kATAdapterCustomInfoBuyeruIdKey];
-            AlexMaxBiddingRequest *request = [[AlexMAXNetworkC2STool sharedInstance] getRequestItemWithUnitID:serverInfo[@"unit_id"]];
-            
-            if (bidId && request) {
+            if (bidId) {
+                AlexMaxBiddingRequest *request = [[AlexMAXNetworkC2STool sharedInstance] getRequestItemWithUnitID:serverInfo[@"unit_id"]];
+                if (!request) {
+                    NSError *error = [NSError errorWithDomain:ATADLoadingErrorDomain code:ATAdErrorCodeADOfferLoadingFailed userInfo:@{NSLocalizedDescriptionKey:@"AppLovin Splash ad request is nil", NSLocalizedFailureReasonErrorKey:@"1011"}];
+                    [self callbackLoadFailedWithError:error localInfo:localInfo serverInfo:serverInfo completion:completion];
+                    return;
+                }
+                
                 self.customEvent = (AlexMaxSplashCustomEvent *)request.customEvent;
                 self.customEvent.requestCompletionBlock = completion;
                 
@@ -45,10 +53,10 @@
                     if (self.splashAd.isReady) {
                         [self.customEvent trackSplashAdLoaded:self.splashAd];
                     } else {
-                        [self.splashAd loadAd];
+                        NSError *error = [NSError errorWithDomain:ATADLoadingErrorDomain code:ATAdErrorCodeADOfferLoadingFailed userInfo:@{NSLocalizedDescriptionKey:@"AppLovin Splash ad is not ready", NSLocalizedFailureReasonErrorKey:@"1011"}];
+                        [self.customEvent trackSplashAdLoadFailed:error];
                     }
                 }
-                self.splashAd = request.customObject;
                 // remove requestItem
                 [[AlexMAXNetworkC2STool sharedInstance] removeRequestItemWithUnitID:serverInfo[@"unit_id"]];
             } else {
@@ -83,7 +91,7 @@
     
     if ([AlexMaxBaseManager isLimitCOPPA]) {
         if (completion) {
-            completion(nil, [NSError errorWithDomain:ATADLoadingErrorDomain code:ATAdErrorCodeADOfferLoadingFailed userInfo:@{NSLocalizedDescriptionKey:@"AppLovin SDK 13.0.0 or higher does not support child users.", NSLocalizedFailureReasonErrorKey:@"1011"}]);
+            completion(nil, [NSError errorWithDomain:ATADLoadingErrorDomain code:ATAdErrorCodeADOfferLoadingFailed userInfo:@{NSLocalizedDescriptionKey:@"AppLovin SDK 13.0.1 or higher does not support child users.", NSLocalizedFailureReasonErrorKey:@"1011"}]);
         }
         return;
     }
