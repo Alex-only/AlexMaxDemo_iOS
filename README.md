@@ -11,7 +11,7 @@
 | 1.0.8.x | >=6.4.12 | >= 13.0.1 |
 | 1.0.9 | >=6.4.76 | >= 13.2.0 |
 
-!!Warning!!
+!!!Warning!!!
 Starting from version 1.0.9, all developers must integrate the library using xcframework. Source code integration will no longer be supported.
 
 Other:
