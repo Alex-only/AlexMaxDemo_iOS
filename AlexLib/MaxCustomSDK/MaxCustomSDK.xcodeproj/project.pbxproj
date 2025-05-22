@@ -138,7 +138,7 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		CA068C492CEDC3EE0002E71E /* Max */ = {
+		CA068C492CEDC3EE0002E71E /* MaxAdapter_1.0.8.2 */ = {
 			isa = PBXGroup;
 			children = (
 				CAC35DF32CF988A900FD9348 /* Tools */,
@@ -149,7 +149,7 @@
 				CAC35DCD2CF9870B00FD9348 /* RewardedVideo */,
 				CAC35DD22CF9870B00FD9348 /* Splash */,
 			);
-			path = Max;
+			path = MaxAdapter_1.0.8.2;
 			sourceTree = "<group>";
 		};
 		CAC35DB02CF9870B00FD9348 /* Banner */ = {
@@ -265,7 +265,7 @@
 		E0D1A9F1298A0457008BAFBD /* MaxCustomSDK */ = {
 			isa = PBXGroup;
 			children = (
-				CA068C492CEDC3EE0002E71E /* Max */,
+				CA068C492CEDC3EE0002E71E /* MaxAdapter_1.0.8.2 */,
 				E0D1A9F2298A0457008BAFBD /* AppDelegate.h */,
 				E0D1A9F3298A0457008BAFBD /* AppDelegate.m */,
 				E0D1A9F5298A0457008BAFBD /* SceneDelegate.h */,
