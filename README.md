@@ -4,13 +4,9 @@
 
 | Version     | TopOn SDK Version              |   Applovin version     |
 | ------------ | --------------------------- | --------------- |
-| 1.0.5       |  >= 6.3.53            |   >= 12.4.0  |
-| 1.0.4       |  >= 6.2.98            |   >= 12.3.1  |
-| 1.0.3       |  >= 6.2.87  <6.2.98          | 12.1.0  |
-| 1.0.2 | >= 6.2.10  <6.2.87      |  -  |
-| 1.0.8.x | >=6.4.12 | >= 13.0.1 |
-| 1.0.9 | >=6.4.76 | >= 13.2.0 |
-| 1.1.0 | >=6.4.88 | >= 13.3.1 |
+| 1.0.8.x | =6.4.12 | = 13.0.1 |
+| 1.0.9 | =6.4.76 | = 13.2.0 |
+| 1.1.0 | =6.4.88 | = 13.3.1 |
 
 !!!Warning!!!
 Starting from version 1.0.9, all developers must integrate the library using xcframework. Source code integration will no longer be supported.
