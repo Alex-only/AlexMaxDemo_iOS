@@ -7,6 +7,7 @@
 | 1.0.8.x | =6.4.12 | = 13.0.1 |
 | 1.0.9.2 | =6.4.76,6.4.87 | = 13.2.0 |
 | 1.1.01 | =6.4.88,6.4.89,6.4.91 | = 13.3.1 |
+| 1.1.02 | =6.4.92 | = 13.4.0 |
 
 !!!Warning!!!
 Starting from version 1.0.9, all developers must integrate the library using xcframework. Source code integration will no longer be supported.
