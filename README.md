@@ -29,11 +29,13 @@ pod 'AppLovinSDK','xx.x.x'
  
 #### 2. Import AlexMaxAdapter
 
-1.To add the source code from the "AlexMaxAdapter-xx.x.x.x/AlexMaxAdapter/AlexMaxAdapter" folder 
+There are two ways to introduce AlexMaxAdapter.
+
+Method 1: To add the source code from the "AlexMaxAdapter-xx.x.x.x/AlexMaxAdapter/AlexMaxAdapter" folder 
 
 ![sourcecode](READMEAssets/sourcecode.png)
   
-2.Generate and drag "AlexMaxAdapter.framework" to your project
+Method 2: Generate and drag "AlexMaxAdapter.framework" to your project
  
 Since the TopOn SDK was refactored from version 6.4.94, starting from version 13.4.0.0, manual export of AlexMaxAdapter.framework is supported. The steps are as follows: 
 
