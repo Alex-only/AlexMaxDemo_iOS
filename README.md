@@ -17,7 +17,7 @@
 
   It is recommended that you visit the TopOn SDK download center to obtain the latest version and select the corresponding AlexMaxAdapter for integration based on that version number.
 
-## 2. Introducing Max SDK & AlexMaxAdapter
+## 2. Import Max SDK and AlexMaxAdapter
 
 ### iOS
 
@@ -29,7 +29,7 @@ pod 'AppLovinSDK','xx.x.x'
  
 #### 2. Import AlexMaxAdapter
 
-There are two ways to introduce AlexMaxAdapter.
+There are two ways to import AlexMaxAdapter.
 
 Method 1: To add the source code from the "AlexMaxAdapter-xx.x.x.x/AlexMaxAdapter/AlexMaxAdapter" folder 
 
