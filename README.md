@@ -63,7 +63,7 @@ Splash：AlexMaxSplashAdapter<br/>
 
 If you has modified the adapter file name in the source code, please use the modified name to fill in the TopOn dashboard.
 
-![2](https://user-images.githubusercontent.com/124124788/222124025-dd7700ad-3190-4c30-a63f-2c82e13005bb.png)
+![addnetwork](READMEAssets/addnetwork.png)
 
 3. Add parameters for app and ad source dimension configuration
 
