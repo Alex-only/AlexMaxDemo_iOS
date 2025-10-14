@@ -2,21 +2,25 @@
 
 # Version description
 
-| Version     | TopOn SDK Version              |   Applovin version     |
-| ------------ | --------------------------- | --------------- |
-| 1.0.8.x | =6.4.12 | = 13.0.1 |
-| 1.0.9.2 | =6.4.76,6.4.87 | = 13.2.0 |
-| 1.1.01 | =6.4.88,6.4.89,6.4.91 | = 13.3.1 |
-| 1.1.02 | =6.4.92 | = 13.4.0 |
+| Version      | TopOn SDK Version              |   Applovin version     |
+| ------------ | ------------------------------ | ---------------------- |
+| 1.0.8.x      | =6.4.12                        | = 13.0.1               |
+| 1.0.9.2      | =6.4.76,6.4.87                 | = 13.2.0               |
+| 1.1.01       | =6.4.88,6.4.89,6.4.91          | = 13.3.1               |
+| 1.1.02       | =6.4.92                        | = 13.4.0               |
+| 13.4.0.0     | =6.4.94,6.5.31                 | = 13.4.0               |
 
-!!!Warning!!!
-Starting from version 1.0.9, all developers must integrate the library using xcframework. Source code integration will no longer be supported.
+⚠️⚠️⚠️ Note ⚠️⚠️⚠️
+Since the TopOn SDK was refactored from version 6.4.94, starting from version 13.4.0.0, manual export of AlexMaxAdapter is supported. The steps are as follows: 
+
+1. Go to the AlexMaxAdapter-xx.x.x.x/AlexMaxAdapter path and execute "pod install --repo-update" to install the dependencies. 
+2. After the first step is completed successfully, AlexMaxAdapter.xcworkspace will be generated. Double-click to open it, select the AlexMaxAdapter target, and compile to generate the AlexMaxAdapter framework file.
 
 Other:
 
 1. Added support for MAX's native self-rendered ad integration. Currently compatible with Applovin, Admob, and Pangle. Please refer to the [MaxAdapter support versions](https://dash.applovin.com/documentation/mediation/ios/ad-formats/native-manual) for more information.
 
-# integration
+# Integration
 
 ## 1. Access TopOn SDK
 
@@ -29,14 +33,12 @@ Other:
 #### 1. Import Max SDK
 
 ```
-pod 'AppLovinSDK'
+pod 'AppLovinSDK','xx.x.x'
 ```
+ 
+#### 2. Import AlexMaxAdapter
 
-
-
-#### 2. Import Alex Adapter
-
-1.To add the source code from the "Max" folder or the "MaxSDKAdapter.framework" to your project
+1.To add the source code from the "Max" folder or the "AlexMaxAdapter.framework" to your project
 
 <img width="987" alt="截屏2023-02-08 13 52 41" src="https://user-images.githubusercontent.com/124124788/217446269-c866b212-242a-425a-814a-f7aa14571be8.png">
 
@@ -47,16 +49,15 @@ pod 'AppLovinSDK'
 ```
 pod 'Masonry'
 ```
-
-
+ 
 
 ###  Unity Platform
 
-We just need to import the MaxSDKAdapter.framework into the path，`Assets/AnyThinkAds/Plugins/iOS`，
+We just need to import the AlexMaxAdapter.framework into the path，`Assets/AnyThinkAds/Plugins/iOS`，
 
 ![Unity_Max_Podfile_1](https://github.com/Alex-only/AlexMaxDemo_iOS/assets/124124788/266b34ab-6f1c-4878-bdb1-bf8a41c44ee3)
 
-To add the MaxSDKAdapter.framework to your Xcode project using a Podfile,  pod install
+To add the AlexMaxAdapter.framework to your Xcode project using a Podfile,  pod install
 
 ```
 pod 'AppLovinSDK'
@@ -64,7 +65,7 @@ pod 'AppLovinSDK'
 
 ###  Flutter
 
-To import the MaxSDKAdapter.framework into the specified path `plugins/anythink_sdk/ios/ThirdPartySDK` and then install the dependencies using `pod install`
+To import the AlexMaxAdapter.framework into the specified path `plugins/anythink_sdk/ios/ThirdPartySDK` and then install the dependencies using `pod install`
 
 ![flutter_max](Assets/flutter_max.png)
 
@@ -156,7 +157,7 @@ Enter the [Preparing Mediated Networks](https://dash.applovin.com/documentation/
 
 
 
-## 4. TopOn Background configuration
+## 4. TopOn dashboard configuration
 
 1. You need to add a Custom Network.
 
@@ -191,7 +192,7 @@ If the developer has modified the file name in the source code behind, please us
 
 
 
-## 五. Max setting
+## 5. Max setting
 
 ### Step1.Create Max account
 
@@ -241,7 +242,7 @@ The corresponding relationship between MAX’s Unit and TopOn’s placement type
 
 
 
-## Step 6. Test Max ads
+## 6. Test Max ads
 
 <font color='red'>Please make sure you have followed the instructions above to create applications and advertising placement in the Max backend and configure them under the advertising placement in the TopOn backend.</font>
 
