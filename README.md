@@ -45,8 +45,7 @@ Step 2. After the first step is completed successfully, AlexMaxAdapter.xcworkspa
 
 3. For versions of AlexMaxAdapter below 13.4.0.0, Masonry also needs to be included.
 ```
-pod 'Masonry'
-
+pod 'Masonry' 
 ``` 
  
 ## 3. TopOn dashboard configuration
@@ -63,7 +62,7 @@ Splash：AlexMaxSplashAdapter<br/>
 
 If you has modified the adapter file name in the source code, please use the modified name to fill in the TopOn dashboard.
 
-![addnetwork](READMEAssets/addnetwork.png)
+![addnetworkfirm](READMEAssets/addnetworkfirm.png)
 
 3. Add parameters for app and ad source dimension configuration
 
@@ -85,13 +84,13 @@ If you has modified the adapter file name in the source code, please use the mod
   [ATAPI setLogEnabled:YES];//The SDK log function is recommended to be turned on during the integration testing phase and must be turned off before going online.
 ```
 
-### 2. Open Max's test mode
+2. Open Max's test mode
 
 Enter the [MAX - Test Mode](https://dash.applovin.com/o/mediation/test_modes) page, click the `Add Test Device` button, and fill in the GAID obtained above in the input box of IDFA (iOS), then select the advertising platform that needs to be tested, and click `Save` to save it.
  
 > For more information, please refer to  [MAX Test Mode](https://dash.applovin.com/documentation/mediation/android/testing-networks/test-mode)
 
  
-### 3.  Load & display ads
+3.  Load & display ads
 
 After adding the test device to the Max backend, please wait for 5 to 15 minutes. After the configuration takes effect, call the relevant methods of the TopOn SDK to load and display the TopOn placement to verify whether the integration of the Max advertising is normal.
