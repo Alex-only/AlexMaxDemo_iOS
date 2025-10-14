@@ -43,7 +43,7 @@ Step 1. Go to the AlexMaxAdapter-xx.x.x.x/AlexMaxAdapter path and execute "pod i
 Step 2. After the first step is completed successfully, AlexMaxAdapter.xcworkspace will be generated. Double-click to open it, select the AlexMaxAdapter target, and compile to generate the AlexMaxAdapter.framework file.
 
 
-3. For versions of AlexMaxAdapter below 13.4.0.0, Masonry also needs to be included.
+For versions of AlexMaxAdapter below 13.4.0.0, Masonry also needs to be included.
 ```
 pod 'Masonry' 
 ``` 
@@ -64,7 +64,7 @@ If you has modified the adapter file name in the source code, please use the mod
 
 ![addnetworkfirm](READMEAssets/addnetworkfirm.png)
 
-3. Add parameters for app and ad source dimension configuration
+2. Add parameters for app and ad source dimension configuration
 
 ```
 "sdk_key": SDK Key of Max
