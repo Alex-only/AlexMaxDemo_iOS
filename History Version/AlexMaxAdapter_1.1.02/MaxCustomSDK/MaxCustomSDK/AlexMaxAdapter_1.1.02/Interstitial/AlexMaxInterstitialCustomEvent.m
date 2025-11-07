@@ -71,7 +71,7 @@
     [customInfo setValue:self.maxAd.placement forKey:@"Placement"];
     [customInfo setValue:self.maxAd.DSPName forKey:@"DSPName"];
     [customInfo setValue:self.maxAd.DSPIdentifier forKey:@"DSPIdentifier"];
-    [customInfo setValue:[NSValue valueWithCGSize:self.maxAd.size] forKey:@"Size"];
+    [customInfo setValue:NSStringFromCGSize(self.maxAd.size) forKey:@"Size"];
     [customInfo setValue:[ALSdk shared].configuration.countryCode forKey:@"CountryCode"];
     return customInfo;
 }

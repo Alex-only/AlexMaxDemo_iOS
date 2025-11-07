@@ -1,6 +1,0 @@
-framework module MaxSDKAdapter {
-  umbrella header "MaxSDKAdapter.h"
-  export *
-
-  module * { export * }
-}
