@@ -8,6 +8,7 @@ target 'AlexMaxAdapter' do
   use_frameworks!
 
   pod 'AppLovinSDK', '13.4.0'
-  pod 'AnyThinkiOS', '6.5.32'
+  pod 'TPNiOS', '6.5.32' #(for TopOn , Also 6.4.94,6.5.31 is supported)
+  #pod 'AnyThinkiOS', '6.5.32' #(for Taku , Also 6.4.94,6.5.31 is supported)
 
 end
