@@ -1,0 +1,26 @@
+PODS:
+  - AnyThinkiOS (6.4.93):
+    - AnyThinkiOS/AnyThinkSDK (= 6.4.93)
+  - AnyThinkiOS/AnyThinkSDK (6.4.93)
+  - AppLovinSDK (13.4.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - AnyThinkiOS (= 6.4.93)
+  - AppLovinSDK (= 13.4.0)
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AnyThinkiOS
+    - AppLovinSDK
+    - Masonry
+
+SPEC CHECKSUMS:
+  AnyThinkiOS: a8546fb9a6469059714a230dab52ef9a963deb17
+  AppLovinSDK: 33fcc783889e2d522ae26886b31e5551246a5b2f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 01aa88af97f4eeb5077102e354342eaf82e6a0ff
+
+COCOAPODS: 1.16.2
