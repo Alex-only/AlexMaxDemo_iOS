@@ -1,5 +1,8 @@
 # Changelog
 
+## 13.5.0.1
+* Optimize initialization performance.
+
 ## 13.5.0.0
 * Certified with Applovin SDK 13.5.0.
 * Supports TopOn version 6.5.34
