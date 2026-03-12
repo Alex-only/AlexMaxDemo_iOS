@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+target 'AlexMaxAdapter' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'AppLovinSDK', '13.6.0'
+ 
+  pod 'TPNiOS', '6.5.34' #(for TopOn)
+  #pod 'AnyThinkiOS', '6.5.34' #(for Taku )
+
+end
