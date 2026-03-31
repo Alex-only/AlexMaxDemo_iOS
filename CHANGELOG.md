@@ -1,8 +1,8 @@
 # Changelog
 
 ## 13.6.0.2.0
-* Change to TopOn Custom Adapter Protocol version 2.0.
-* TopOn SDK version MUST >= v6.5.60 
+* Migrated to TopOn Custom Adapter Protocol v2.0.
+* Minimum required TopOn SDK version is v6.5.60.
 
 ## 13.6.0.0
 * Updated to max 13.6.0.
