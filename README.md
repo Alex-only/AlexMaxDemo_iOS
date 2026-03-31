@@ -11,7 +11,8 @@
 | 13.4.0.1     | =6.4.94,6.5.31,6.5.32          | = 13.4.0               |
 | 13.5.0.0     | =6.5.34                        | = 13.5.0               |
 | 13.5.0.1     | =6.5.34                        | = 13.5.0               |
-| 13.6.0.0     | =6.5.34                        | = 13.6.0               |
+| 13.6.0.0     | =6.5.34,6.5.43                 | = 13.6.0               |
+| 13.6.0.2.0   | =6.5.60                        | = 13.6.0               |
 
 # Integration
 
@@ -33,7 +34,7 @@ pod 'AppLovinSDK','xx.x.x'
 
 There are two ways to import AlexMaxAdapter.
 
-Method 1: To add the source code from the "AlexMaxAdapter-xx.x.x.x/AlexMaxAdapter/AlexMaxAdapter" folder 
+Method 1: To add the source code from the "AlexMaxAdapter-xx.x.x.x.x/AlexMaxAdapter/AlexMaxAdapter" folder 
 
 ![sourcecode](READMEAssets/sourcecode.png)
   
