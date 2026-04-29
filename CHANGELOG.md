@@ -1,8 +1,16 @@
 # Changelog
 
+## 13.6.0.2.1
+* Reset Max rv delete at showRewardedVideoInViewController:
+* Migrated to TopOn Custom Adapter Protocol v2.0.
+* Minimum required TopOn SDK version is v6.5.60.
+
 ## 13.6.0.2.0
 * Migrated to TopOn Custom Adapter Protocol v2.0.
 * Minimum required TopOn SDK version is v6.5.60.
+
+## 13.6.0.1
+* Reset Max rv delete at showRewardedVideoInViewController:
 
 ## 13.6.0.0
 * Updated to max 13.6.0.
